@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #111;
+  color: #eee;
+}
+
+/* button */
+@layer components {
+  .c-btn {
+    @apply p-2 rounded capitalize;
+  }
+}
